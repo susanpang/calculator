@@ -1,0 +1,13 @@
+.panel {
+	height: 90%;
+}
+
+button {
+	height: 50px;
+	width: 50px;
+	font-size: 18px;
+}
+
+#divide, #times, #minus, #plus, #equal {
+	background-color: orange;
+}
