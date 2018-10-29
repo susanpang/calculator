@@ -1,6 +1,6 @@
 import React from 'react';
 import App from '../index';
-import {mount} from 'enzyme';
+import { mount } from 'enzyme';
 
 function click(wrapper, buttons) {
 	for (let i = 0; i < buttons.length; i++) {

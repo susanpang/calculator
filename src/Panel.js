@@ -1,10 +1,6 @@
 import React from 'react';
 //import './Panel.css'
 import Button from './Button';
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-configure({ adapter: new Adapter() });
 
 export default class Panel extends React.Component {
 	constructor(props) {

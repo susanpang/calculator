@@ -5,10 +5,7 @@ import Display from './Display';
 import Panel from './Panel';
 import calculate from './calculate';
 
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
 //import './index.css';
-configure({ adapter: new Adapter() });
 
 export default class App extends React.Component {
 	constructor(props) {
